@@ -15,6 +15,9 @@ if [ "$((`date +%s` - $LAST))" -gt 86400 ]; then
   UPDATE=1
 fi
 
+# NEVER UPDATE
+UPDATE=0
+
 set -e
 
 DEPOT_TOOLS_DIR=$(dirname $(which gclient))
