@@ -1,3 +1,7 @@
+# About this fork
+
+This fork overrides the git rebase/update portion of `build-headless-shell.sh` so that the script never updates an existing source tree.
+
 # About headless-shell
 
 The [headless-shell][headless-shell] project provides a Docker image,
